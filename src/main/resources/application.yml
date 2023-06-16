@@ -1,0 +1,43 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/userDb
+    username: postgres
+    password: abcd
+  rsocket:
+    server:
+      mapping-path: /rsocket
+      transport: websocket
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:9000/oauth2/jwks
+      client:
+        registration:
+          github:
+            clientId: github-client-id
+            clientSecret: github-client-secret
+          google:
+            client-id: google-client-id
+            client-secret: google-client-secret
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+server:
+  port: 9090
+  http2:
+    enabled: true
+
+logging:
+  level:
+    io:
+      reflectoring: DEBUG
+    org:
+      springframework:
+        web: INFO
+    reactor:
+      netty:
+        http:
+          client: DEBUG

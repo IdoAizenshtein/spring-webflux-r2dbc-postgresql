@@ -7,4 +7,5 @@
   <img src="Java_programming_language_logo.svg.png" height="50" title="JAVA">
   <img src="1280px-Spring_Framework_Logo_2018.svg.png" height="50" alt="Spring">
   <img src="elephant.png" height="50" alt="postgresql">
+ <img src="maven-logo-black-on-white.png" height="50" alt="Maven">
 </p>

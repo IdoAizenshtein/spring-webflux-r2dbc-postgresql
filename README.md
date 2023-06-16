@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="Java_programming_language_logo.svg.png" width="350" title="JAVA">
-  <img src="1280px-Spring_Framework_Logo_2018.svg.png" width="350" alt="Spring">
-  <img src="yelephant.png" width="350" alt="postgresql">
+  <img src="Java_programming_language_logo.svg.png" height="50" title="JAVA">
+  <img src="1280px-Spring_Framework_Logo_2018.svg.png" height="50" alt="Spring">
+  <img src="elephant.png" height="50" alt="postgresql">
 </p>
